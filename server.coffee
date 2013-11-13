@@ -6,6 +6,9 @@ require('zappajs') ->
     
     @get '/players': ->
         "John, Fred" 
+
+    @get '/game/:game': ->
+        @render 'game', board: @params.game
     
     @view index: ->
         p 'Some text goes here'
@@ -16,7 +19,8 @@ require('zappajs') ->
           head ->
             title @title
           body ->
-            for i in [1..3]
-                h1 "test server #{i}"
-                h3 " #{i}"
+            h1 "test server"
             @body   
+
+    @view game: ->
+        p "The value of :game is #{@board} OK?"
