@@ -1,7 +1,7 @@
 require('zappajs') ->
     @use 'partials'
     
-    @get '/player-name': ->
+    @get '/': ->
         "Nigel"
 
     @get '/play/:game': ->

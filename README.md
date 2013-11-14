@@ -12,7 +12,7 @@ The idea of the kata is to write a web server that will respond to simple HTTP r
 
 The team register the IP address of their server by going to the /join URL and typing in their IP address and port number. The server will then query their machine for the team name.
 
-When the team's server is called with the URL '/player-name' the server will respond with the Team's chosen name, this is the minimum to qualify to play. 
+When the team's server is called with the URL '/' the server will respond with the Team's chosen name, this is the minimum to qualify to play. 
 
 When called with the URL '/game/<GAME>' the server will respond with the square from 1 to 9 that the team wants to play in. Squares are numbered from 1 to 9 from left to right and top to bottom.
 
