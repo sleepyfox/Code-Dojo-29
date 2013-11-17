@@ -1,6 +1,6 @@
-Code Dojo 29
+Code Dojo Experiment
 ============
-This is some server code in order to implement a game-playing server for the 29th London Code Dojo
+This is some server code in order to implement a game-playing server for the London Code Dojo
 
 The tests can be run from the command-line with [mocha](http://visionmedia.github.io/mocha/):
 	
@@ -16,9 +16,9 @@ When the team's server is called with the URL '/' the server will respond with t
 
 When called with the URL '/game/<GAME>' the server will respond with the square from 1 to 9 that the team wants to play in. Squares are numbered from 1 to 9 from left to right and top to bottom.
 
-123
-456
-789
+	123  
+	456  
+	789  
 
 Players gain one point for a legal move i.e. not on an occupied square, and twenty points for a winning move
 
