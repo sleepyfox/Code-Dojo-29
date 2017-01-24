@@ -2,7 +2,7 @@ Code Dojo Experiment
 ============
 This is some server code in order to implement a game-playing server for the London Code Dojo
 
-The tests can be run from the command-line with [mocha](http://visionmedia.github.io/mocha/):
+The tests can be run from the command-line with [mocha](http://mochajs.org/):
 	
 	mocha --compilers coffee:coffee-script -R spec test-*.coffee
 
